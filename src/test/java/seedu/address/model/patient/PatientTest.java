@@ -9,7 +9,6 @@ import java.util.Set;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import seedu.address.model.person.Address;
 import seedu.address.model.person.Email;
 import seedu.address.model.person.Name;
 import seedu.address.model.person.Phone;
@@ -25,10 +24,9 @@ public class PatientTest {
         Name name = new Name("John Doe");
         Phone phone = new Phone("98765432");
         Email email = new Email("johndoe@example.com");
-        Address address = new Address("123, Jurong West Ave 6, #08-111");
         Set<Tag> tags = new HashSet<>();
 
-        patient = new Patient(name, phone, email, address, tags);
+        patient = new Patient(name, phone, email, tags);
     }
 
     @Test
@@ -44,11 +42,6 @@ public class PatientTest {
     @Test
     public void getEmail() {
         assertEquals(new Email("johndoe@example.com"), patient.getEmail());
-    }
-
-    @Test
-    public void getAddress() {
-        assertEquals(new Address("123, Jurong West Ave 6, #08-111"), patient.getAddress());
     }
 
     @Test

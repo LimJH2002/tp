@@ -2,7 +2,6 @@ package seedu.address.model.patient;
 
 import java.util.Set;
 
-import seedu.address.model.person.Address;
 import seedu.address.model.person.Email;
 import seedu.address.model.person.Name;
 import seedu.address.model.person.Person;
@@ -20,11 +19,10 @@ public class Patient extends Person {
      * @param name
      * @param phone
      * @param email
-     * @param address
      * @param tags
      */
-    public Patient(Name name, Phone phone, Email email, Address address, Set<Tag> tags) {
-        super(name, phone, email, address, tags);
+    public Patient(Name name, Phone phone, Email email, Set<Tag> tags) {
+        super(name, phone, email, tags);
     }
 
     //getters and setters
@@ -38,10 +36,6 @@ public class Patient extends Person {
 
     public Email getEmail() {
         return super.getEmail();
-    }
-
-    public Address getAddress() {
-        return super.getAddress();
     }
 
     public Set<Tag> getTags() {

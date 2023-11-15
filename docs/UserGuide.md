@@ -354,6 +354,33 @@ This command allows you to edit **existing** appointment details. The appointmen
 To change the details of the <strong>second appointment for the patient at index 7 to October 5th, 2023, at 4:00 PM</strong>:<br>
 `edit-appt 2 pi/7 d/2023-10-05 t/16:00`
 
+**Tutorial:** <br>
+
+**Step 1**: Listing the appointments of the patient: <br>
+
+![PatientsList](images/Patients.png)
+
+You want to edit an appointment for Alex Yeoh. You can see that the patient Alex Yeoh has an index of 1 in the patient list.
+Now you can switch to the appointments tab.
+
+![ListAppointments](images/ListAppt.png)
+
+You can now list the appointments of the patient at index 1 using `list-appointments 1` , where 1 is the index of Alex Yeoh.
+
+![AfterListAppt](images/AfterListAppt.png)
+
+You can see the list of appointments for Alex Yeoh. You want to edit the date of the second appointment for Alex Yeoh.
+
+**Step 2**: Editing the appointment for Alex Yeoh: <br>
+
+![EditAppt](images/EditAppt.png)
+
+You can now edit the date of the first appointment using `edit-appt 2 pi/1 d/2022-05-06`, where 2 is the index of the second appointment and 1 is the index of Alex Yeoh.
+
+![AfterEditAppt](images/AfterEditAppt.png)
+
+You can see that the date of the second appointment has been edited to 2022-05-06.
+
 <div style="background-color: #cce7ff; padding: 10px; margin-bottom: 10px; border-left: 3px solid #3385ff;">
   <strong>:scroll: Additional Info<br></strong>
  To ensure you are editing the correct appointment: <br>
@@ -395,6 +422,33 @@ This command allows you to remove an appointment from the system. The appointmen
 **Example Commands** <br>
 To delete the **third appointment for the patient at index 2**:<br>
 `delete-appt 3 pi/2`
+
+**Tutorial:** <br>
+
+**Step 1**: Listing the appointments of the patient: <br>
+
+![PatientsList](images/Patients.png)
+
+You want to delete an appointment for Alex Yeoh. You can see that the patient Alex Yeoh has an index of 1 in the patient list.
+Now you can switch to the appointments tab.
+
+![ListAppointments](images/ListAppt.png)
+
+You can now list the appointments of the patient at index 1 using `list-appointments 1` , where 1 is the index of Alex Yeoh.
+
+![AfterListAppt](images/AfterListAppt.png)
+
+You can see the list of appointments for Alex Yeoh. You want to delete the first appointment for Alex Yeoh.
+
+**Step 2**: Deleting the appointment for Alex Yeoh: <br>
+
+![DeleteAppt](images/DeleteAppt.png)
+
+You can now delete the date of the first appointment using `delete-appt 1 pi/1`, where 1 is the index of the first appointment and 1 is the index of Alex Yeoh.
+
+![AfterDeleteAppt](images/AfterDeleteAppt.png)
+
+You can see that the first appointment has been deleted.
 
 **Parameters** <br>
 Let's break down what each part of the command means:
@@ -594,6 +648,34 @@ This command allows you to edit a medical history of a patient. The medical hist
 **Example Commands** <br>
 To edit an existing medical history entry for **patient index 1, changing the condition to asthma and the treatment to Levabuterol on October 1st, 2023**: <br>
 `edit-medical-history 1 pi/1 d/2023-10-01 mc/asthma t/Levabuterol`
+
+**Tutorial:** <br>
+
+**Step 1**: Listing the medical history of the patient: <br>
+
+![PatientsList](images/Patients.png)
+
+You want to edit a medical history entry for Alex Yeoh. You can see that the patient Alex Yeoh has an index of 1 in the patient list.
+Now you can switch to the medical history tab.
+
+![ListMedicalHistory](images/ListMedicalHistory.png)
+
+You can now list the medical history of the patient at index 1 using `list-medical-history 1` , where 1 is the index of Alex Yeoh.
+
+![AfterListMedicalHistory](images/AfterListMedicalHistory.png)
+
+You can see the list of medical history for Alex Yeoh. You want to edit the second medical history entry for Alex Yeoh.
+
+**Step 2**: Editing the medical history entry for Alex Yeoh: <br>
+
+![EditMedicalHistory](images/EditMedicalHistory.png)
+
+You can now edit the date of the second entry using `edit-medical-history 2 pi/1 d/2022-03-03`, where 2 is the index of the second entry and 1 is the index of Alex Yeoh.
+
+![AfterEditMedicalHistory](images/AfterEditMedicalHistory.png)
+
+You can see that the date of the second entry has been changed to 2022-03-03.
+
 <div style="background-color: #cce7ff; padding: 10px; margin-bottom: 10px; border-left: 3px solid #3385ff;">
   <strong>:scroll: Additional Information</strong><br>
   The medical history of the patient that you plan to edit must be currently displayed:
@@ -634,6 +716,32 @@ This command allows you to delete a medical history of a patient. The medical hi
 **Example Commands** <br>
 To delete the **first medical history entry for the patient at index 1**: <br>
 `delete-medical-history 1 pi/1`
+
+**Tutorial:** <br>
+**Step 1**: Listing the medical history of the patient: <br>
+
+![PatientsList](images/Patients.png)
+
+You want to delete a medical history entry for Alex Yeoh. You can see that the patient Alex Yeoh has an index of 1 in the patient list.
+Now you can switch to the medical history tab.
+
+![ListMedicalHistory](images/ListMedicalHistory.png)
+
+You can now list the medical history of the patient at index 1 using `list-medical-history 1` , where 1 is the index of Alex Yeoh.
+
+![AfterListMedicalHistory](images/AfterListMedicalHistory.png)
+
+You can see the list of medical history for Alex Yeoh. You want to delete the first medical history entry for Alex Yeoh.
+
+**Step 2**: Deleting the medical history entry for Alex Yeoh: <br>
+
+![DeleteMedicalHistory](images/DeleteMedicalHistory.png)
+
+You can now delete the first entry using `delete-medical-history 1 pi/1`, where 1 is the index of the first entry and 1 is the index of Alex Yeoh.
+
+![AfterDeleteMedicalHistory](images/AfterDeleteMedicalHistory.png)
+
+You can see that the first entry has been deleted.
 
 **Parameters** <br>
 Let's break down what each part of the command means:

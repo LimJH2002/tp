@@ -42,39 +42,39 @@ Here's how you can get started with CareCentral quickly:
     * `delete-patient 1`
     * `exit`
 
-## 2.2 Navigating the User Guide
+## 2.2 Navigating the User Guide 🧭
 This section will explain the different elements of the user guide and how to navigate it.
 
-### 2.2.1. Navigation
+### 2.2.1. Navigation 🗾
 You can navigate the user guide by clicking on the links in the table of contents on the top of the User Guide.
 ![UG_tableOfContents](images/UG_tableOfContents.png)
 
-### 2.2.2. Command Format
+### 2.2.2. Command Format 
 `This is the format of a Command in the User Guide`
 
-### 2.2.3. Links
+### 2.2.3. Links 🔗
 [Links]() will be displayed in this format. These are clickable links that will bring you to the respective section.
 
-### 2.2.4. Boxes
-#### 2.2.4.1. Warning
+### 2.2.4. Boxes 📦
+#### 2.2.4.1. Warning ❗
 <div style="background-color: #f9f9f9; border-left: 5px solid #d9534f; padding: 5px; margin-bottom: 10px; border-radius: 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
    <p style="color: #d9534f;"><strong>❗Warning:</strong> This is a warning, information in this box is <strong>extremely important</strong>. Ignoring the warnings may result in <strong>irreversible error</strong> of the application.</p>
 </div>
 
-#### 2.2.4.2. Things to Note
+#### 2.2.4.2. Things to Note ⚠️
 
 <div style="background-color: #ffffcc; padding: 10px; border-left: 3px solid #ffeb3b; margin-bottom: 10px;">
   <strong>:warning: Things To Note <br></strong>
    Things that you should take note before using the respective command will be displayed in this format. 
 </div>
 
-#### 2.2.4.3. Additional Info
+#### 2.2.4.3. Additional Info :scroll: 
 <div style="background-color: #cce7ff; padding: 10px; margin-bottom: 10px; border-left: 5px solid #3385ff;">
   <strong>:scroll: Additional Info<br></strong>
   Things that are good to know but not compulsory, but might come in handy in using the feature will be displayed in this format.
 </div>
 
-#### 2.2.4.4. Notes from developers
+#### 2.2.4.4. Notes from developers 📝
 
 <div style="background-color: #fff3e0; padding: 5px; border-left: 5px solid #ffa726;">
   📝<strong> Notes from developers<br></strong>
